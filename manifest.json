@@ -1,0 +1,24 @@
+{
+
+  "description": "Enable new Bing on FireFox",
+  "manifest_version": 2,
+  "name": "Enable new Bing",
+  "version": "1.0",
+  "homepage_url": "https://github.com/mdn/webextensions-examples/tree/master/user-agent-rewriter",
+  "icons": {
+    "48": "icons/2x/outline_smart_toy_black_48dp.png"
+  },
+
+  "permissions": [
+    "webRequest", "webRequestBlocking", "https://www.bing.com/*" 
+  ],
+  
+  "background": {
+    "scripts": ["background.js"]
+  },
+
+  "browser_action": {
+    "default_icon": "icons/1x/outline_smart_toy_black_48dp.png"
+  }
+
+}
