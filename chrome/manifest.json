@@ -1,0 +1,28 @@
+{
+  "description": "Enable new Bing on Chrome",
+  "manifest_version": 3,
+  "name": "Enable new Bing",
+  "version": "2.0",
+  "homepage_url": "https://github.com/tsekityam/enable-new-bing-extension",
+  "icons": {
+    "48": "icons/1x/outline_smart_toy_black_48dp.png"
+  },
+  "permissions": [
+    "declarativeNetRequest"
+  ],
+  "host_permissions": [
+    "*://*.bing.com/*"
+  ],
+  "action": {
+    "default_icon": "icons/2x/outline_smart_toy_black_48dp.png"
+  },
+  "declarative_net_request": {
+    "rule_resources": [
+      {
+        "id": "ruleset_1",
+        "enabled": true,
+        "path": "rules.json"
+      }
+    ]
+  }
+}

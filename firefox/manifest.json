@@ -3,10 +3,10 @@
   "description": "Enable new Bing on FireFox",
   "manifest_version": 2,
   "name": "Enable new Bing",
-  "version": "1.1",
+  "version": "1.2",
   "homepage_url": "https://github.com/tsekityam/enable-new-bing-extension",
   "icons": {
-    "48": "icons/2x/outline_smart_toy_black_48dp.png"
+    "48": "icons/1x/outline_smart_toy_black_48dp.png"
   },
 
   "permissions": [
@@ -18,7 +18,7 @@
   },
 
   "browser_action": {
-    "default_icon": "icons/1x/outline_smart_toy_black_48dp.png"
+    "default_icon": "icons/2x/outline_smart_toy_black_48dp.png"
   }
 
 }
